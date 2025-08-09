@@ -3,46 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Netherlands Health Stats</title>
+  <title>Netherlands Health Sector Statistics</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <div class="container">
-    <h1>Netherlands Health Sector (2025)</h1>
+    <h1>Netherlands Health Sector Statistics (2025)</h1>
     
-    <!-- Summary + Key Stats Grid -->
-    <div class="stats-grid">
-      <div class="summary">
-        <p>Healthcare expenditure grew by <strong>8.1% in 2024</strong> (€113.5B total). Staff shortages may reach <strong>240K by 2034</strong>. Long-term care dominates spending (<strong>27.7%</strong>).</p>
-      </div>
-      <div class="key-stat">
-        <h3>€7,179</h3>
-        <p>Spending per capita (2021)</p>
-      </div>
-      <div class="key-stat">
-        <h3>2.78</h3>
-        <p>Hospital beds per 1K people</p>
-      </div>
-      <div class="key-stat">
-        <h3>10.7</h3>
-        <p>Nurses per 1K people</p>
-      </div>
+    <!-- Summary Section -->
+    <div class="summary">
+      <p>The Dutch healthcare sector is growing, with expenditure expected to increase by <strong>7% in 2025</strong> and <strong>5.5% in 2026</strong>. Total spending reached <strong>€113.5 billion in 2024</strong> (+8.1% from 2023). Key challenges include staffing shortages (projected to reach <strong>240,000 by 2034</strong>) and high spending on long-term care (<strong>27.7% of total expenditure</strong>).</p>
     </div>
 
-    <!-- Charts in a Tight Grid -->
-    <div class="charts-grid">
-      <div class="chart-container">
-        <canvas id="spendingChart"></canvas>
-      </div>
-      <div class="chart-container">
-        <canvas id="perCapitaChart"></canvas>
-      </div>
-      <div class="chart-container">
-        <canvas id="workforceChart"></canvas>
-      </div>
+    <!-- Chart 1: Healthcare Spending Breakdown -->
+    <div class="chart-container">
+      <canvas id="spendingChart"></canvas>
+    </div>
+
+    <!-- Chart 2: Per Capita Spending Over Time -->
+    <div class="chart-container">
+      <canvas id="perCapitaChart"></canvas>
+    </div>
+
+    <!-- Chart 3: Healthcare Workforce Ratios -->
+    <div class="chart-container">
+      <canvas id="workforceChart"></canvas>
     </div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
