@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netherlands Health Sector Statistics</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Netherlands Health Sector Statistics (2025)</h1>
+    
+    <!-- Summary Section -->
+    <div class="summary">
+      <p>The Dutch healthcare sector is growing, with expenditure expected to increase by <strong>7% in 2025</strong> and <strong>5.5% in 2026</strong>. Total spending reached <strong>€113.5 billion in 2024</strong> (+8.1% from 2023). Key challenges include staffing shortages (projected to reach <strong>240,000 by 2034</strong>) and high spending on long-term care (<strong>27.7% of total expenditure</strong>).</p>
+    </div>
+
+    <!-- Chart 1: Healthcare Spending Breakdown -->
+    <div class="chart-container">
+      <canvas id="spendingChart"></canvas>
+    </div>
+
+    <!-- Chart 2: Per Capita Spending Over Time -->
+    <div class="chart-container">
+      <canvas id="perCapitaChart"></canvas>
+    </div>
+
+    <!-- Chart 3: Healthcare Workforce Ratios -->
+    <div class="chart-container">
+      <canvas id="workforceChart"></canvas>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
